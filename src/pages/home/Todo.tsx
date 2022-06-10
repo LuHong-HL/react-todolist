@@ -68,6 +68,7 @@ function Todo() {
         todoList={todoList}
         changeTodo={changeTodo}
         deleteTodo={deleteTodo}
+        setTodoList={ (todoList: ITodoType[]) => setTodoList(todoList) }
       ></TodoList>
     </div>
   );
