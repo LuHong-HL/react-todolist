@@ -1,0 +1,12 @@
+.todo-item {
+    background-color: rgba(#000, 0.1);
+    display: flex;
+    align-items: center;
+    min-width: 400px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid rgb(239, 239, 239);
+    .btn {
+        margin-left: 10px;
+    }
+}
